@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    <h1>La Torre del Oro de Sevilla</h1>
+    <img src="https://www.busturistico.com/wp-content/uploads/2022/04/torre-del-oro-sevirama-1.jpg"></img><br>
+    <hr>
+    <a href="index.html">Inicio</a>
+    <a href="historia.html">Historia</a>
+    <a href="enlaces.html">Enlaces</a>
+    <a href="contacto.html">Contacto</a>
+    <hr>
+<h2>Aquí iré el formulario para contactar</h2>
+ <form name="inicioSesion" 
+      action="http://miweb.es/gestionaSesión.php"
+      method="GET">
+      Nombre: <input type="text" name="inputNombre"><br><br>
+      Apellidos: <input type="text" name="inputApellidos"><br><br>
+      Email: <input type="text" name="inputemail"><br><br>
+      Casilla de selección:<br> 
+      <input type="radio" name="inputradio1">Hombre<br>
+      <input type="radio" name="inputradio1">Mujer<br>
+     <br>
+      Ingresa aquí tu mensaje: <br>
+       <textarea name="textareaComentarios" id="idTextareaComentarios" cols="30" rows="10"></textarea><br>
+           <input type="checkbox" name="checkboxVerificacion">Deseo recibir publicidad en mi dirección email<br>
+     <br>
+           Procedencia:
+       <select name="selectColor" id="idSelectColor">
+       <optgroup label="Europa">
+        <option value="rojo">Resto de la Unión Europea</option>
+        <option value="verde">España</option>
+        <option value="azul">Reino Unido</option>
+        </optgroup>
+         <optgroup label="Resto del mundo">
+        <option value="naranja">América</option>
+        <option value="naranja">África</option>
+        <option value="naranja">Asia</option>
+        <option value="naranja">Oceanía</option>
+        </optgroup>
+      </select><br><br>
+
+      Ingrese el archivo que quieras adjuntar: <input type="file" name="fileSubirArchivo"><br>
+       <input type="submit" name="submitFormulario" value="Enviar">  <input type="reset" name="inputreset" value="Borrar todo"><br>
+</form>
+</header><footer><p>Claudia Parra Jiménez 2BACH</p></footer>
+</body>
+</html>
